@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+        background-color: #181e2a;
+        position: relative;
+
+}
+#root{
+    
+
+    position: relative;
+}
+
+
+    @layer  {
+      container {
+    @apply px-[30px] mx-auto;
+  }
+  .elements-center {
+    @apply  flex  flex-col  text-center justify-center items-center;
+
+   
+  }
+}
