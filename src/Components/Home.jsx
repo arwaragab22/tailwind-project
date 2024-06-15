@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-customcolorbg pt-[100px]">
         <div className='container text-white m-auto elements-center '>
-          <div><img src="/assets/landing-img.png"  className=" object-contain w-[600px]  h-[500px] max-w-full mb-3"/></div>
+          <div><img src="assets/landing-img.png"  className=" object-contain w-[600px]  h-[500px] max-w-full mb-3"/></div>
           <div className="max-w-[700px]">
           <h2 className="text-[25px]  md:text-[40px]   font-bold  mb-[10px]">All your files in one secure location,
 accessible anywhere.</h2>
@@ -15,7 +15,7 @@ accessible anywhere.</h2>
       
       </div>
     <div className="w-full h-[200px]">
-     <img src="/assets/bg-curvy-desktop.svg" className="w-full  h-full"/></div>
+     <img src="assets/bg-curvy-desktop.svg" className="w-full  h-full"/></div>
     </div>
   
   )

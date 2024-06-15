@@ -27,7 +27,7 @@ export default function Testimonials() {
     ]);
     return (
         <div className='bg-[#181e2a ]    container gap-[30px] m-auto relative mt-[200px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-[300px]'>
-<div className='absolute top-[-80px] z-0 left-[10px] md:left-0 '><img src="/assets/bg-quotes.png" /></div>
+<div className='absolute top-[-80px] z-0 left-[10px] md:left-0 '><img src="assets/bg-quotes.png" /></div>
 
             {testData.map((item) => {
                 return <Testimonialsbox item={item} key={item.desc } className="z-50 relative"/>

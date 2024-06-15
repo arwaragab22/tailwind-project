@@ -6,7 +6,7 @@ export default function Stayproductive() {
   return (
     <div className='container gap-[20px] m-auto text-white grid grid-cols-1 md:grid-cols-2 mt-[150px] items-center'>
       
-          <div><img src="/assets/illustration-stay-productive.png" className='object-contain'></img></div>
+          <div><img src="assets/illustration-stay-productive.png" className='object-contain'></img></div>
         
           <div className='p-3'>
           <h3 className="font-simibold  text-[25px] md:text-[35px]">
